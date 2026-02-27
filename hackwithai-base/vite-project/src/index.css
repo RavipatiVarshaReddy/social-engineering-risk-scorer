@@ -1,0 +1,28 @@
+/* Reset everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make app take full screen */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Remove Vite default centering */
+body {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  background-color: #0f172a;
+}
+
+/* Optional: smoother text */
+h1, h2, h3 {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
